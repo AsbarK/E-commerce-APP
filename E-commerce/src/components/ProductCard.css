@@ -11,15 +11,17 @@ height:100%;
 #product-card{
     display: flex;
     width: 80%;
-    height: 15%;
-    /* flex-wrap: wrap; */
+    height: 20%;
+    margin: 4px;
+    border: 1px solid blue;
     position: relative;
     background-color: gainsboro;
 }
 #product-card > img{
-    width: 40%;
-    height: 100%;
+    /* width: 30%; */
     margin-right: 5px;
+    background-repeat: no-repeat;
+  background-size: cover;
 }
 #product-card-heading{
     justify-content: start;
@@ -27,7 +29,6 @@ height:100%;
     margin: 4px;
     /* width: auto; */
     height: 100%;
-    flex-grow: 4;
 }
 
 /* #product-card:hover{
